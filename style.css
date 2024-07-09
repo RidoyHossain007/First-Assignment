@@ -55,3 +55,57 @@ margin-bottom: 24px;
 }
 
 /* hero section's style ends here */
+
+
+/* why web development section starts here */
+
+.why{
+     max-width: 1140px;
+     height: 1393px;
+     background-color: (13, 19, 33, 0.02);
+     margin: 74px auto 90px;
+     border: 2px solid black;
+}
+
+/* why web development section ends here */
+
+/* my inspiration style starts here */
+
+.inspiration{
+     max-width: 1140px;
+     height: 775px;
+     margin: 90px auto 151px;
+     
+}
+.inspiration-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+.inspiration-container h4{
+     color: rgb(13, 19, 33);
+     font-size: 32px;
+     font-weight: 800;
+     margin-bottom: 12px;
+
+}
+.inspiration-container p{
+     color: rgb(13, 19, 33);
+     font-size: 16px;
+     font-weight: 400;
+     m
+}
+.yt-video{
+     margin-top: 48px;
+     border: 2px solid rgba(128, 128, 128, 0.3);
+     border-radius: 18px;
+     padding: 32px;
+}
+ .inspiration-container iframe{   
+     border-radius: 18px;
+}
+
+
+/* my inspiration style ends here */
