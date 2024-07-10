@@ -264,13 +264,15 @@ margin-bottom: 16px;
      flex-direction: row;
      gap: 15px;
 }
-.feedback textarea{
+.feedback input[type=text]{
 width: 548px;
 height: 20px;
 border-radius: 9px;
 padding: 19px 20px;
 
+
 }
+
 
 
 
