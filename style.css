@@ -49,6 +49,9 @@ border-radius: 8px;
      justify-content: center;
      align-items: center;
 }
+.hero-container a{
+    text-decoration: none;
+}
 .hero h2{
  font-size: 48px;
 font-weight: 800;
@@ -72,11 +75,62 @@ margin-bottom: 24px;
 .why{
      max-width: 1140px;
      height: 1393px;
-     background-color: (13, 19, 33, 0.02);
+     background-color: rgba(13, 19, 33, 0.02);
      margin: 74px auto 90px;
-     border: 2px solid black;
      border-radius: 18px;
+     padding-top: 30px;
 }
+.answer-why{
+     width: 852px;
+     height: 113px; 
+     margin: 0 auto 48px;
+}
+.discussion{
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+}
+.webframe{
+     width: 946px;
+height: 336px;
+margin: 0 auto 24px;
+border-radius: 18px;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.web-img{
+     width: 206.4px;
+height: 187.32px;
+margin: 70px 48px 48px 48px;
+}
+.web-img img{
+     width: 100%;
+     height: 100%;
+}
+.why-btn{
+     color:  rgb(13, 19, 33);
+     background-color: white;
+     font-size: 20px;
+     font-weight: 600;
+     width: 150px;
+     height: 48px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 10px 15px;
+
+}
+
+
+
+
 
 /* why web development section ends here */
 
@@ -125,7 +179,7 @@ margin-bottom: 24px;
      display: flex;
      flex-direction:column;
      justify-content: center;
-     align-items: cente;
+     align-items: center;
     
 
 }
@@ -148,8 +202,11 @@ margin-bottom: 24px;
 .html{
  
 background-color: rgba(255, 76, 30, 0.05);
+/* position:absolute; */
 border-radius: 18px;
 padding: 40px;
+/* width: 364px;
+height: 299px; */
 }
 .css{
 
@@ -159,9 +216,9 @@ padding: 40px;
 }
 .js{
 background-color:rgba(255, 223, 0, 0.05);
+border-color: black;
 border-radius: 18px;
 padding: 40px;
-
 }
 .target-a{
      color: black;
@@ -175,7 +232,7 @@ padding: 40px;
 .f-class-container{
  max-width: 1140px;
 height: 314px;
-margin: 49px auto 79px;
+margin: 120px auto 79px;
 border-radius: 18px;
 background-color: rgba(0, 0, 0, 0.3);
 background-image:url('assets/handshake.jpg');
