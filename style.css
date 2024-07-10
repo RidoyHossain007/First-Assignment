@@ -205,18 +205,22 @@ background-color: rgba(255, 76, 30, 0.05);
 /* position:absolute; */
 border-radius: 18px;
 padding: 40px;
-/* width: 364px;
-height: 299px; */
+width: 364px;
+height: 299px;
 }
 .css{
 
 background-color: rgba(0, 76, 232, 0.05);
 border-radius: 18px;
 padding: 40px;
+width: 364px;
+height: 299px;
 }
 .js{
 background-color:rgba(255, 223, 0, 0.05);
 border-color: black;
+width: 364px;
+height: 299px;
 border-radius: 18px;
 padding: 40px;
 }
@@ -232,7 +236,7 @@ padding: 40px;
 .f-class-container{
  max-width: 1140px;
 height: 314px;
-margin: 120px auto 79px;
+margin: 150px auto 79px;
 border-radius: 18px;
 background-color: rgba(0, 0, 0, 0.3);
 background-image:url('assets/handshake.jpg');
