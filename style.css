@@ -23,7 +23,7 @@ font-weight: 400;
 .hero {
      max-width: 1440px;
      height: 652px;
-     border: 2px dashed rgba(128, 128, 128, 0.9);
+
      background-image: url("assets/Hero-bg.png");
      background-repeat: no-repeat;
      margin: 0 auto;
